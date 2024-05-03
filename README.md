@@ -62,4 +62,20 @@ formGeneraDati.addEventListener('submit',
     <!--
     METTIAMO IL RISULTATO NELLA GIUSTA FORMA E LO FACCIAMO VISUALIZZARE
     -->
-        -Utilizziamo il metodo toFixed(2) per far stampare il totale con i giusti decimali <!--nomeVariabile.toFixed(2);--> 
+        -Utilizziamo il metodo toFixed(2) per far stampare il totale con i giusti decimali <!--nomeVariabile.toFixed(2);-->
+
+
+<!--
+MILESTONE 2:
+    Solo una volta che il milestone 1 sarà completo e funzionante allora realizzeremo un form in pagina in cui l’utente potrà inserire i dati e visualizzare il calcolo finale con il prezzo, come da screenshot allegato. Il recap dei dati e l’output del prezzo finale, andranno quindi stampati in pagina (il prezzo dovrà essere formattato con massimo due decimali, per indicare i centesimi sul prezzo).
+
+-->
+
+<!--
+tutte queste operazioni sono comunque da inserire nella funzione dell'event listener (per scatenare questi eventi solo DOPO e SE l'utente avrà aggiunto degli input)
+-->
+
+-Rendere visualizzabile il container che contiene le info del biglietto SOLO quando abbiamo clickato sul pulsante "Genera"
+--Creare una variabile unica che può leggere in sequenza gli input inseriti dall'utente nel form precedente
+---Creare una variabile per creare un numero random da assegnare alla carrozza (che vada da 1 a 10)
+----Creare una variabile per creare un numero random da assegnare al codice CP (valore da 5 cifre)
